@@ -1,0 +1,15 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    view:
+      suffix: .html
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+        url: jdbc:mariadb://localhost3000
+    #    url: jdbc:mariadb://13.125.133.39:3306/h2o
+    username: h2o
+    password: 1
+
